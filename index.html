@@ -18,6 +18,21 @@
       padding: 20px;
       text-align: center;
     }
+    header h1 {
+      margin: 10px 0 5px 0;
+    }
+    header p {
+      margin: 0;
+      font-size: 18px;
+    }
+    .profile-img {
+      display: block;
+      margin: 20px auto;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid #4CAF50;
+    }
     nav {
       background: #333;
       padding: 10px;
@@ -39,6 +54,7 @@
     }
     h2 {
       color: #4CAF50;
+      margin-bottom: 15px;
     }
     .skills, .projects {
       display: flex;
@@ -61,19 +77,19 @@
       margin-top: 20px;
     }
   </style>
-  <section id="about">
-
-  </section>
-
 </head>
 <body>
+
   <header>
     <h1>Puja Mahanta</h1>
     <p>Aspiring Web Developer | Learner | Creator</p>
   </header>
-    <h2>welcome to puja mahanta's portfolio</h2>
-  <img src="https://i.postimg.cc/ydvZtx7X/Whats-App-Image-2025-09-11-at-2-29-19-PM-1.jpg" alt="puja profile photo" class="profile-img"></img>
 
+  <!-- Profile Image -->
+  <img src="https://i.postimg.cc/ydvZtx7X/Whats-App-Image-2025-09-11-at-2-29-19-PM-1.jpg" 
+       alt="Puja Profile Photo" class="profile-img">
+
+  <!-- Navigation -->
   <nav>
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
@@ -81,11 +97,13 @@
     <a href="#contact">Contact</a>
   </nav>
 
+  <!-- About Section -->
   <section id="about">
     <h2>About Me</h2>
     <p>Hello! My name is <b>Puja Mahanta</b>. I am passionate about web development and love learning new skills. My goal is to become a professional web developer and create amazing websites.</p>
   </section>
 
+  <!-- Skills Section -->
   <section id="skills">
     <h2>My Skills</h2>
     <div class="skills">
@@ -96,6 +114,7 @@
     </div>
   </section>
 
+  <!-- Projects Section -->
   <section id="projects">
     <h2>Projects</h2>
     <div class="projects">
@@ -110,14 +129,17 @@
     </div>
   </section>
 
+  <!-- Contact Section -->
   <section id="contact">
     <h2>Contact Me</h2>
     <p>Email: <a href="mailto:puja@example.com">puja@example.com</a></p>
     <p>Phone: +91 12345 67890</p>
   </section>
 
+  <!-- Footer -->
   <footer>
     <p>© 2025 Puja Mahanta | All Rights Reserved</p>
   </footer>
+
 </body>
 </html>
