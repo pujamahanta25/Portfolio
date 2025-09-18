@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio website of Puja Mahanta – aspiring web developer from West Bengal, based in Delhi." />
+    <title>Puja Mahanta — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Puja Mahanta home">
+          <span class="brand-mark" aria-hidden="true">PM</span>
+          <span class="brand-name">Puja Mahanta</span>
+        </a>
+        <nav class="nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#skills">Skills</a>
+          <a href="#goals">Future Goals</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container content">
+          <div>
+            <h1>Hi, I’m Puja — I love coding and writing.</h1>
+            <p class="lead">I’m 16, originally from West Bengal and currently living in Delhi. I enjoy typing on my laptop and solving problems. My dream is to become a web developer and fulfill all my goals.</p>
+            <div class="meta">
+              <span>Age: 16</span>
+              <span>From: West Bengal</span>
+              <span>Based in: Delhi</span>
+            </div>
+            <div class="cta">
+              <a class="btn primary" href="#contact">Contact Me</a>
+            </div>
+          </div>
+          <div>
+            <div class="card" aria-hidden="true">
+              <p style="margin:0;color:hsl(var(--subtle))">Focus Areas</p>
+              <div class="chips" style="margin-top:10px">
+                <span class="chip">Coding</span>
+                <span class="chip">Writing</span>
+                <span class="chip">Typing</span>
+                <span class="chip">Problem‑solving</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="container">
+          <div class="section-header">
+            <h2>About Me</h2>
+            <p class="desc">A quick introduction</p>
+          </div>
+          <div class="card">
+            <div class="about-grid">
+              <div class="about-text">
+                <p>My name is Puja Mahanta. I am 16 years old. I am originally from West Bengal, but currently living in Delhi. I passed my 10th in 2024 from Vidya and Child School, and now I am studying in 12th. I love coding and writing. I enjoy working on my laptop, especially typing, and I like solving problems. My dream is to become a web developer and fulfill all my goals.</p>
+              </div>
+              <div class="about-photo">
+                <figure class="profile" aria-label="Dummy profile photo">
+                  <img src="./WhatsApp Image 2025-09-18 at 9.52.34 AM.jpeg" alt="Dummy profile photo of Puja Mahanta" />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Education</h2>
+            <p class="desc">My academic journey</p>
+          </div>
+          <div class="card">
+            <div class="timeline">
+              <div class="timeline-item edu">
+                <span class="dot"></span>
+                <div>
+                  <h3>10th Pass • 2024</h3>
+                  <p>Vidya and Child School</p>
+                </div>
+              </div>
+              <div class="timeline-item edu">
+                <span class="dot"></span>
+                <div>
+                  <h3>Currently in 12th</h3>
+                  <p>Focused on strengthening fundamentals and practical projects.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Skills &amp; Interests</h2>
+            <p class="desc">Things I enjoy and practice</p>
+          </div>
+          <div class="cards">
+            <div class="card"><strong>Coding</strong><p style="margin:8px 0 0;color:hsl(var(--subtle))">Learning web fundamentals and building small projects.</p></div>
+            <div class="card"><strong>Writing</strong><p style="margin:8px 0 0;color:hsl(var(--subtle))">Expressing ideas clearly and creatively.</p></div>
+            <div class="card"><strong>Typing</strong><p style="margin:8px 0 0;color:hsl(var(--subtle))">Enjoy working on my laptop and improving speed.</p></div>
+            <div class="card"><strong>Problem‑solving</strong><p style="margin:8px 0 0;color:hsl(var(--subtle))">I like challenging tasks that make me think.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="goals" class="section goals">
+        <div class="container">
+          <div class="section-header">
+            <h2>Future Goals</h2>
+            <p class="desc">Where I’m headed</p>
+          </div>
+          <div class="card">
+            <p>To become a web developer and achieve my dreams. I’m focused on building real projects, mastering HTML and CSS, and then learning more advanced topics step by step.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container">
+          <div class="section-header">
+            <h2>Contact</h2>
+            <p class="desc">A simple way to reach me</p>
+          </div>
+          <div class="contact-grid">
+            <div class="card">
+              <p class="note">This form uses your email app to send the message (no JavaScript required).</p>
+              <form class="form" action="mailto:" method="post" enctype="text/plain">
+                <label>
+                  <span>Name</span>
+                  <input class="input" name="name" type="text" placeholder="Your name" required />
+                </label>
+                <label>
+                  <span>Email</span>
+                  <input class="input" name="email" type="email" placeholder="you@example.com" required />
+                </label>
+                <label>
+                  <span>Message</span>
+                  <textarea class="textarea" name="message" placeholder="Write your message..." required></textarea>
+                </label>
+                <button class="submit" type="submit">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© <span id="year">2025</span> Puja Mahanta. Built with only HTML &amp; CSS.</p>
+      </div>
+    </footer>
+  </body>
+</html>
